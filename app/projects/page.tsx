@@ -18,16 +18,6 @@ export default function ProjectsPage() {
       image: "/images/NORTH EAST TRANSPORTATION HUB-QIDDIYA, RIYADH, KSA.jpeg",
     },
     {
-      title: "Wadi Al Sail Foxhil North Zone 3 & 4",
-      location: "Doha, Qatar",
-      year: "2024",
-      category: "Residential",
-      description: "The Wadi Al Sail Development in Lusail City, Qatar, is a significant urban project comprising multiple zones, including Zones 3 and 4. These zones are part of the Fox Hills area within Lusail's North District. The development aims to create a vibrant residential and commercial community, contributing to Lusail City's growth as a modern urban center.",
-      scope: "Project Lead BIM Consultant, LOD 400 & LOD 500, 5D BIM Services, Laser Scanning",
-      client: "Qatar Building Engineering Company (QBEC)",
-      image: "/images/WADI AL SAIL FOXHIL NORTH ZONE 3 & 4, DOHA, QATAR.jpeg",
-    },
-    {
       title: "Qetaifan Island North Water Park",
       location: "Qatar",
       year: "2022",
@@ -36,26 +26,6 @@ export default function ProjectsPage() {
       scope: "LOD 400 - BIM Models Updating to correct LOD 400 level for MEP Services with Material Implementation & Metadata, LOD 500 - BIM Modelling and As-Built Drawings for MEP, Overall Project Coordination, Clash Detection and Resolution, Asset Management/COBie",
       client: "Qatar Electro-Mechanical Group (QEMG)",
       image: "/images/Qetaifan Island North Water Park.jpeg",
-    },
-    {
-      title: "Lusail Stadium",
-      location: "Lusail, Qatar",
-      year: "2022",
-      category: "Sports & Entertainment",
-      description: "The 80,000-seat Lusail Stadium embodies Qatar's ambition and its passion for sharing Arab culture with the world. It is here that the FIFA World Cup Qatar 2022 final was staged, with billions around the globe watching on. The design of this magnificent stadium is inspired by the interplay of light and shadow that characterizes the fanar lantern.",
-      scope: "LOD 300 & 400 BIM Modelling for Infrastructure, Utilities, Roads, Landscape, Asset Information Management (COBie)",
-      client: "FIFA World Cup Qatar 2022",
-      image: "/images/LUSAIL STADIUM.jpeg",
-    },
-    {
-      title: "Ras Abu Aboud Stadium",
-      location: "Doha, Qatar",
-      year: "2022",
-      category: "Sports & Entertainment",
-      description: "Constructed using shipping containers, removable seats, and other modular building blocks, not only will this innovative 40,000-seat venue have a remarkable design, but it was entirely dismantled and repurposed after the FIFA World Cup Qatar 2022.",
-      scope: "LOD 300 & 400 BIM Modelling for Infrastructure, Utilities, Roads, Landscape, Asset Information Management (COBie)",
-      client: "FIFA World Cup Qatar 2022",
-      image: "/images/RAS ABU ABOUD STADIUM .jpeg",
     },
     {
       title: "Seef Lusail Project - Plot D1, D2, D3 & D4",
@@ -99,7 +69,7 @@ export default function ProjectsPage() {
     },
   ];
 
-  const categories = ["All", "Infrastructure", "Residential", "Hospitality & Entertainment", "Sports & Entertainment"];
+  const categories = ["All", "Infrastructure", "Residential", "Hospitality & Entertainment"];
 
   // Filter projects based on selected category
   const filteredProjects = selectedCategory === "All"
